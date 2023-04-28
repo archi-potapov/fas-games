@@ -1,0 +1,158 @@
+a {
+    color: white;
+    text-decoration: none;
+
+/*&:active*/
+/* {*/
+/*     color: white;*/
+/* }*/
+/*&:visited*/
+/* {*/
+/*     color: white;*/
+/* }*/
+/*&:hover*/
+/* {*/
+/*     color: white;*/
+/* }*/
+}
+.header__top
+{
+    height: 44px;
+    background-color: #3E3E3E;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.header__bg
+{
+    height: 44px;
+    background-color: #383838;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.logo
+{
+    z-index: 1;
+}
+.logo__img
+{
+    width: 29px;
+    height: 29px;
+    /* border-style: solid; */
+    border-radius: 25px;
+    /* border-width: 1px; */
+    /* border-color: white; */
+}
+.logo_z-index-0
+{
+    z-index: 0;
+}
+.logo__img_header-style
+{
+    border-radius: 8px;
+}
+.logo__img_size_87px
+{
+    width: 87px;
+    height: 87px;
+}
+.logo__abbreviation
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 22px;
+}
+.logo__full-description
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3E3E3E;
+    text-align: start;
+}
+.logo__link
+{
+    display: flex;
+    align-items: center;
+}
+.logo__link_gap_28px
+{
+    gap: 28px;
+}
+.menu-label
+{
+    display: none;
+}
+.menu-label__stripe
+{
+    background-color: white;
+    min-width: 28px;
+    min-height: 2px;
+    border-radius: 10px;
+    margin: 7px 0;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.menu__switcher
+{
+    visibility: hidden;
+}
+.menu__list
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.menu__link
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.menu__list-item
+{
+    margin-left: 22px;
+}
+.header__menu
+{
+    margin-left: auto;
+}
+.header__top-inner
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    align-items: center;
+    height: inherit;
+}
+.header__content-inner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    gap: 28px;
+}
+.header__logo
+{
+
+}
+.header__content
+{
+    height: 200px;
+    background-color: #F2F2F2;
+    padding-top: 44px;
+}
+.container
+{
+    height: inherit;
+    max-width: 860px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}

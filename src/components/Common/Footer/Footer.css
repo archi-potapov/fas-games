@@ -1,0 +1,27 @@
+.footer
+{
+    background-color: #EBEBEB;
+    position: relative;
+}
+.footer__inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    min-height: 44px;
+}
+.footer__inner-item
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.footer__email
+{
+/*&:hover*/
+/* {*/
+/*     color: gray;*/
+/* }*/
+}

@@ -385,6 +385,12 @@
         min-height: 160px;
         height: auto;
         width: 297px;
+
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0)
+
     }
     .default-section__card_theme_game
     {

@@ -1,5 +1,6 @@
 .App {
   /*text-align: center;*/
+  /*background-color: #EBEBEB;*/
 }
 * {
   margin: 0;
@@ -9,6 +10,7 @@ header {
 }
 html {
   scroll-behavior: smooth;
+  background-color: #EBEBEB;
 }
 main {
   z-index: 1;

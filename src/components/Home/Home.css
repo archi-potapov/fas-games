@@ -1,0 +1,385 @@
+.container
+{
+    height: inherit;
+    max-width: 860px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.default-section
+{
+
+}
+.default-section__inner
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.default-section__inner_reverse
+{
+    flex-direction: row-reverse;
+}
+.default-section__item
+{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.default-section__items-container
+{
+    display: flex;
+}
+.default-section_theme_game
+{
+    background-image: url("./TRS_BG.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.default-section_theme_yt
+{
+    background-size: cover;
+    background-position: center;
+    background-color: #F2F2F2;
+    /* background-image: linear-gradient(90deg, #E9260C, #FF5C46); */
+}
+.default-section_theme_vk
+{
+    background-size: cover;
+    background-position: center;
+    background-color: #EBEBEB;
+    /* background-image: linear-gradient(90deg, #3B8DEB, #0062D1); */
+}
+.default-section_theme_donates
+{
+    background-size: cover;
+    background-position: center;
+    background-color: #F2F2F2;
+    /* background-image: linear-gradient(90deg, #E95B0C, #FFAC46); */
+}
+.default-section__inner_size_m
+{
+    height: 520px;
+}
+.default-section__inner_size_350px
+{
+    height: 350px;
+}
+.default-section__text
+{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.default-section__text_text-color_white
+{
+    color: white;
+}
+.default-section__title
+{
+    font-size: 32px;
+    font-weight: 600;
+    /* text-shadow: 1px 1px 2px black */
+}
+.default-section__description
+{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 0px 0px 18px;
+    /* text-shadow: 1px 1px 2px black; */
+}
+.text-shadow
+{
+    text-shadow: 1px 1px 2px black;
+}
+.default-section__card
+{
+    height: 220px;
+    width: 330px;
+    /* border-style: solid; */
+    border-radius: 25px;
+    /* border-width: 4px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.default-section__card:hover > .default-section__card-image
+{
+    transition: 0.3s;
+    transform: scale(102%);
+}
+.default-section__card:hover > .default-section__card-button
+{
+    color: white;
+    transition: 0.1s;
+    background-color: #3E3E3E;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    box-sizing: border-box;
+}
+.default-section__card:hover > .default-section__card-button_theme_dark
+{
+    color: #3E3E3E;
+    transition: 0.1s;
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3E3E3E;
+    box-sizing: border-box;
+}
+.default-section__card_size_194x360
+{
+    height: 194px;
+    width: 360px;
+}
+.default-section__card_theme_game
+{
+    /* border-color: #64B164; */
+    /* background-color: #64B164; */
+    /* width: 452px; */
+    /* height: 221px */
+    /*box-shadow: 0 0 20px rgba(100,177,100,0.8);*/
+    -webkit-box-shadow: 0px 0px 28px 13px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 28px 13px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 28px 13px rgba(0, 0, 0, 0.3);
+}
+.default-section__card-image
+{
+    position: absolute;
+    transition: 0.3s;
+    background-size: auto;
+    /* width: 452px; */
+    /* height: 221px */
+    /* image-resolution: 333px 221px; */
+    /* transform: translate(-50%, -50%); */
+    object-fit: cover;
+    box-shadow: inset 0 0 20px rgba(122,122,122,1);
+}
+.default-section__card-image_theme_game
+{
+    width: 333px;
+    height: 221px;
+    box-shadow: inset 0 0 20px rgba(122,122,122,1);
+}
+.default-section__card-image_theme_vk
+{
+    width: 360px;
+    height: 194px;
+}
+.default-section__card-image_theme_donates
+{
+    width: 360px;
+    height: 194px;
+}
+.default-section__card-image_theme_yt
+{
+    width: 360px;
+    height: 194px;
+}
+.default-section__card_theme_yt
+{
+    /* border-color: #CC0000; */
+    /* background-color: #CC0000; */
+    box-shadow: 0 0 20px rgba(236,25,25,0.7);
+}
+.default-section__card_theme_vk
+{
+    /* border-color: #5BA8FF; */
+    /* background-color: #5BA8FF; */
+    box-shadow: 0 0 20px rgba(17,75,235,0.7);
+}
+.default-section__card_theme_donates
+{
+    /* border-color: #FF7A00; */
+    /* background-color: #FF7A00; */
+    box-shadow: 0 0 20px rgba(255,122,0,0.7);
+}
+.default-section__card-button
+{
+    height: 40px;
+    border-radius: 16px;
+    /* background-color: white; */
+    background-color: white;
+    color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 18px 18px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    transition: 0.1s;
+}
+.default-section__card-button_theme_dark
+{
+    background-color: #3E3E3E;
+    color: white;
+}
+.default-section__card-button-text
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 24px;
+    z-index: 1;
+    transition: 0.3s;
+}
+.game-section__downloads-block
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.game-section__downloads-number
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 146px;
+    height: 59px;
+    border-radius: 25px 25px 0 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.game-section__link
+{
+    width: 147px;
+    height: 43px;
+    background-size: cover;
+    border-style: solid;
+    border-radius: 14px;
+    border-width: 1px;
+    background-position: center;
+    position: relative;
+}
+.game-section__link::before
+{
+    transition: 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'ПЕРЕЙТИ';
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 101%;
+    background-color: #F2F2F2;
+    border-radius: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3E3E3E;
+    left: -1px;
+    top: -1px;
+    opacity: 0;
+}
+.game-section__link:hover::before
+{
+    opacity: 1;
+}
+.game-section__gp-link
+{
+    background-image: url("./gp_link.png");
+}
+.game-section__ag-link
+{
+    background-image: url("./ag_link.svg");
+}
+.game-section__ns-link
+{
+    background-image: url("./ns_link.svg");
+    border-color: black;
+}
+.game-section__rs-link
+{
+    background-image: url("./rustore_link.png");
+    border-color: black;
+}
+.default-section__card_shadow_inside
+{
+    -webkit-box-shadow: 0px 0px 35px 2px rgba(50, 50, 38, 0.45) inset;
+    -moz-box-shadow: 0px 0px 35px 2px rgba(50, 50, 38, 0.45) inset;
+    box-shadow: 0px 0px 35px 2px rgba(50, 50, 38, 0.45) inset;
+}
+
+@media screen and (max-width: 800px){
+    .default-section__inner
+    {
+        flex-direction: column;
+    }
+    .container
+    {
+        padding: 0 30px;
+    }
+    .default-section__card
+    {
+        /* height: 198px; */
+        min-height: 160px;
+        height: auto;
+        width: 297px;
+    }
+    .default-section__card_theme_game
+    {
+        min-height: 198px;
+    }
+    .default-section__card-image
+    {
+        width: 297px;
+        height: 160px;
+    }
+    .default-section__card-image_theme_game
+    {
+        width: 297px;
+        height: 198px;
+    }
+    .default-section__item
+    {
+        display: flex;
+        align-items: center;
+    }
+    .default-section__text
+    {
+        width: auto;
+        display: inline-block;
+        left: 0;
+        margin-right: 30px;
+    }
+    .default-section__additional
+    {
+        display: inline-block;
+    }
+    .default-section__inner
+    {
+        height: auto;
+        display: block;
+    }
+    .default-section__inner_size_m
+    {
+        max-height: 700px;
+    }
+    .container_all-sides-padding
+    {
+        padding: 30px 30px;
+    }
+    .default-section__items-container
+    {
+        margin-top: 30px;
+    }
+}

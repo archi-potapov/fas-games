@@ -24,9 +24,9 @@ export default function Home() {
                             <div
                                 className="default-section__item default-section__text default-section__text_text-color_white">
                                 <div className="default-section__title text-shadow">
-                                    <p>
+                                    <h1>
                                         TRS
-                                    </p>
+                                    </h1>
                                 </div>
                                 <div className="default-section__description text-shadow">
                                     <p>

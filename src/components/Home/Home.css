@@ -386,6 +386,7 @@
         height: auto;
         width: 297px;
 
+        /*transitionFix*/
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         -webkit-transform: translate3d(0, 0, 0);

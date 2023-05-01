@@ -102,14 +102,20 @@
 {
     height: 220px;
     width: 330px;
-    /* border-style: solid; */
     border-radius: 25px;
-    /* border-width: 4px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     position: relative;
     overflow: hidden;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .default-section__card:hover > .default-section__card-image

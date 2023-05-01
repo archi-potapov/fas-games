@@ -372,6 +372,10 @@
 }
 
 @media screen and (max-width: 800px){
+    .default-section_theme_game
+    {
+        background-attachment: unset;
+    }
     .default-section__inner
     {
         flex-direction: column;

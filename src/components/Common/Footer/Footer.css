@@ -3,7 +3,6 @@
     height: inherit;
     max-width: 860px;
     margin: 0 auto;
-    /* overflow: hidden; */
 }
 .footer
 {
@@ -27,11 +26,12 @@
 }
 .footer__email
 {
-/*&:hover*/
-/* {*/
-/*     color: gray;*/
-/* }*/
+
 }
+.footer__email:hover
+ {
+     color: gray;
+ }
 @media screen and (max-width: 800px){
     .container
     {
@@ -46,7 +46,6 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        /* padding: 4px 0 4px 0; */
     }
     .footer__inner-item
     {

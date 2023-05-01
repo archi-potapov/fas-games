@@ -67,6 +67,10 @@ a {
     font-size: 14px;
     margin-left: 22px;
 }
+.logo__abbreviation:hover
+{
+    color: #bebebe;
+}
 .logo__full-description
 {
     font-family: 'Roboto', sans-serif;
@@ -114,6 +118,10 @@ a {
     font-weight: 300;
     font-size: 14px;
 }
+.menu__link:hover
+{
+    color: #bebebe;
+}
 .menu__list-item
 {
     margin-left: 22px;
@@ -154,7 +162,6 @@ a {
     height: inherit;
     max-width: 860px;
     margin: 0 auto;
-    /* overflow: hidden; */
 }
 @media screen and (max-width: 800px){
     .container
@@ -185,7 +192,6 @@ a {
         left: 0;
         top: 0;
         min-height: 200px;
-        /* padding: 60px 0; */
         align-items: center;
         justify-content: center;
         z-index: -1;
@@ -223,7 +229,6 @@ a {
         padding: 0;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-between; */
     }
     .menu__list-item
     {

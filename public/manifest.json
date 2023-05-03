@@ -3,7 +3,7 @@
   "name": "Fun Adventure Studio",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "icon_uncut.jpg",
       "sizes": "512x512 192x192 64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

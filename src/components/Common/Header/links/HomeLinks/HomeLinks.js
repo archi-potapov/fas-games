@@ -14,9 +14,9 @@ export default function HomeLinks () {
                 <li key={2} className="menu__list-item">
                     <a className="menu__link" href="#section_4">ПОМОЩЬ ПРОЕКТУ</a>
                 </li>
-                <li key={3} className="menu__list-item">
-                    <a className="menu__link" href="#section_1">ЛИЧНЫЙ КАБИНЕТ</a>
-                </li>
+                {/*<li key={3} className="menu__list-item">*/}
+                {/*    <a className="menu__link" href="#section_1">ЛИЧНЫЙ КАБИНЕТ</a>*/}
+                {/*</li>*/}
             </ul>
         </nav>
     );

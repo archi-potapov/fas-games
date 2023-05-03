@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route} from "react-router-dom";
+import { Link, Routes, Route} from "react-router-dom";
 import "../../../CommonStyles.css";
 import './Header.css';
 import logo from './logo.jpg'
@@ -14,10 +14,10 @@ export default function Header() {
                         <div className="header__bg"></div>
                         <div className="logo">
                             <div className="header__logo">
-                                <a className="logo__link" href="https://fas-games.ru/">
+                                <Link className="logo__link" to="https://fas-games.ru/">
                                     <img src={logo} alt="FAS-Logo" className="logo__img logo__img_header-style"></img>
                                         <span className="logo__abbreviation">FAS</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <input className="menu__switcher" type="checkbox" id="menu"></input>

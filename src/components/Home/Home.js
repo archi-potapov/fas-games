@@ -8,7 +8,7 @@ export default function Home() {
     const studioName = ['FUN ', <br key={0} />, 'ADVENTURE', <br key={1} />, 'STUDIO'];
     return(
         <main>
-            <div className="header__content" id="section_1">
+            <div className="header__content" id="section_about">
                 <div className="container container_horizontal-margin">
                     <div className="header__content-inner">
                         <div className="logo logo_z-index-0">
@@ -70,7 +70,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="default-section default-section_theme_yt" id="section_2">
+            <section className="default-section default-section_theme_yt" id="section_media_yt">
                 <div className="container container_horizontal-margin container_all-sides-padding">
                     <div
                         className="default-section__inner default-section__inner_reverse default-section__inner_size_350px">
@@ -101,7 +101,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="default-section default-section_theme_vk" id="section_3">
+            <section className="default-section default-section_theme_vk" id="section_media_vk">
                 <div className="container container_horizontal-margin container_all-sides-padding">
                     <div className="default-section__inner default-section__inner_size_350px">
                         <div className="default-section__item">
@@ -132,7 +132,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="default-section default-section_theme_donates" id="section_4">
+            <section className="default-section default-section_theme_donates" id="section_donates">
                 <div className="container container_horizontal-margin container_all-sides-padding">
                     <div
                         className="default-section__inner default-section__inner_reverse default-section__inner_size_350px">

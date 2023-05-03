@@ -4,7 +4,7 @@ import "./PrivacyPolicy.css"
 export default function PrivacyPolicy() {
     return(
         <main>
-            <section className="privacy privacy__container privacy__container_horizontal-margin">
+            <section className="privacy privacy__container privacy__container_horizontal-margin" id="section_privacy">
                 <strong>Privacy Policy</strong> <p>
                 Potapov Artur Vitalievich built the The Ravine - Survival app as
                 an Ad Supported app. This SERVICE is provided by
@@ -36,6 +36,7 @@ export default function PrivacyPolicy() {
                 Link to the privacy policy of third-party service providers used
                 by the app
             </p> <ul><li><a className="privacy__link" href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+            <li><a className="privacy__link" href="https://yandex.ru/legal/confidential/" target="_blank" rel="noopener noreferrer">Yandex</a></li>
             </ul></div> <p><strong>Log Data</strong></p> <p>
                 I want to inform you that whenever you
                 use my Service, in a case of an error in the app

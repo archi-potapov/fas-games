@@ -1,0 +1,29 @@
+main {
+    height: 100%;
+}
+.privacy {
+    padding: 80px 0 40px 0;
+}
+.privacy__container {
+    max-width: 800px;
+    margin: auto;
+}
+.privacy__link {
+    color: blue;
+}
+.privacy__link:visited {
+    color: midnightblue;
+}
+.privacy__link:hover {
+    color: midnightblue;
+}
+.privacy__container_horizontal-margin {
+
+}
+
+@media screen and (max-width: 920px) {
+    .privacy__container_horizontal-margin {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}

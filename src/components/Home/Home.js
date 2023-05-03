@@ -1,12 +1,27 @@
 import React from "react";
 import "./Home.css";
+import "../Common/Header/Header.css"; //Only for first section
+import "../../CommonStyles.css"
+import logo from "../Common/Header/logo.jpg";
 
 export default function Home() {
-    const studioName = ['FUN ', <br />, 'ADVENTURE', <br />, 'STUDIO'];
+    const studioName = ['FUN ', <br key={0} />, 'ADVENTURE', <br key={1} />, 'STUDIO'];
     return(
         <main>
+            <div className="header__content" id="section_1">
+                <div className="container container_horizontal-margin">
+                    <div className="header__content-inner">
+                        <div className="logo logo_z-index-0">
+                            <a className="logo__link logo__link_gap_28px" href="https://fas-games.ru/">
+                                <img src={logo} alt="FAS-Logo" className="logo__img logo__img_size_87px"></img>
+                                <span className="logo__full-description">{studioName}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <section className="default-section game-section default-section_theme_game">
-                <div className="container container_all-sides-padding">
+                <div className="container container_horizontal-margin container_all-sides-padding">
                     <div className="default-section__inner default-section__inner_size_m">
                         <div className="default-section__item">
                             <a className="default-section__card default-section__card_theme_game" target="_blank">
@@ -56,7 +71,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="default-section default-section_theme_yt" id="section_2">
-                <div className="container container_all-sides-padding">
+                <div className="container container_horizontal-margin container_all-sides-padding">
                     <div
                         className="default-section__inner default-section__inner_reverse default-section__inner_size_350px">
                         <div className="default-section__item">
@@ -87,7 +102,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="default-section default-section_theme_vk" id="section_3">
-                <div className="container container_all-sides-padding">
+                <div className="container container_horizontal-margin container_all-sides-padding">
                     <div className="default-section__inner default-section__inner_size_350px">
                         <div className="default-section__item">
                             <a className="default-section__card default-section__card_size_194x360 default-section__card_theme_vk"
@@ -118,7 +133,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="default-section default-section_theme_donates" id="section_4">
-                <div className="container container_all-sides-padding">
+                <div className="container container_horizontal-margin container_all-sides-padding">
                     <div
                         className="default-section__inner default-section__inner_reverse default-section__inner_size_350px">
                         <div className="default-section__item">

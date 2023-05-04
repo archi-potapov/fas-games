@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="footer__container container container_horizontal-margin">
                 <div className="footer__inner footer__inner_size_m">
                     <Link className="footer__inner-item footer__email"
-                       to="https://fas-games.ru/privacy-policy/#section_privacy">Конфиденциальность</Link>
+                       to="https://fas-games.ru/privacy-policy/#section_privacy">Конфиденциальность (TRS)</Link>
                     <a className="footer__inner-item footer__email"
                        href="mailto:fas.gamecommunity@gmail.com">fas.gamecommunity@gmail.com</a>
                 </div>

@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 30px 16px 30px;
+    width: 310px;
+}
+.form__input-text {
+    min-height: 24px;
+    border-radius: 4px;
+    border: 0px;
+    padding-left: 12px;
+    /*background-color: transparent;*/
+
+}
+.form__submit {
+    min-height: 34px;
+    margin-top: auto;
+}
+.form__checkbox {
+    min-width: 16px;
+    min-height: 16px;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+.form__privacy-field {
+    display: flex;
+    gap: 14px;
+}
+.form__checkbox-label {
+
+}
+@media screen and (max-width: 400px) {
+    .form {
+        width: auto;
+    }
+}

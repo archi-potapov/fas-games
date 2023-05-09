@@ -7,6 +7,7 @@ import { BrowserRouter, Routes , Route } from 'react-router-dom';
 import Home from "./components/Home/Home";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import UserDPPolicy from "./components/UserDPPolicy/UserDPPolicy";
+import Authorization from "./components/Authorization/Authorization";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,8 @@ root.render(
         <App>
             <Routes>
                 <Route exact path='/' element={<Home />} />
+                <Route path='/id/login' element={<Authorization />} />
+                <Route path='/id/register' element={<Authorization />} />
                 <Route path='/privacy-policy' element={<PrivacyPolicy />} />
                 <Route path='/user-data-processing-policy' element={<UserDPPolicy />} />
             </Routes>

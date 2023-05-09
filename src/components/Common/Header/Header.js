@@ -5,6 +5,9 @@ import './Header.css';
 import logo from './logo.jpg'
 import HomeLinks from "./links/HomeLinks/HomeLinks";
 import PrivacyPolicyLinks from "./links/PrivacyPolicyLinks/PrivacyPolicyLinks";
+import AuthorizationLinks from "./links/AuthorizationLinks/AuthorizationLinks";
+import RegistrationLinks from "./links/RegistrationLinks/RegistrationLinks";
+import Authorization from "../../Authorization/Authorization";
 export default function Header() {
     return(
         <header className="header">
@@ -29,6 +32,8 @@ export default function Header() {
                             </label>
                             <Routes>
                                 <Route exact path='/' element={<HomeLinks />} />
+                                <Route path='/id/login' element={<AuthorizationLinks />} />
+                                <Route path='/id/register' element={<RegistrationLinks />} />
                                 <Route path='/privacy-policy' element={<PrivacyPolicyLinks />} />
                             </Routes>
                     </div>
